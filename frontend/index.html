@@ -19,5 +19,34 @@
       <h2>Kotia etsivät eläimet</h2>
       <div id="animals-grid" class="grid"></div>
     </section>
+    
+    <section id="detail-view" class="hidden">
+      <button class="btn-secondary" onclick="showListView()">← Takaisin listaan</button>
+      <div id="animal-detail-content" class="detail-card"></div>
+
+      <div id="adoption-form-container" class="form-card">
+        <h3>Jätä adoptiohakemus</h3>
+        <form id="adoption-form">
+          <div class="form-group">
+            <label for="applicant_name">Nimesi *</label>
+            <input type="text" id="applicant_name" required placeholder="Masa Mainio">
+          </div>
+          <div class="form-group">
+            <label for="applicant_email">Sähköposti *</label>
+            <input type="email" id="applicant_email" required placeholder="matti@esimerkki.fi">
+          </div>
+          <div class="form-group">
+            <label for="applicant_phone">Puhelinnumero *</label>
+            <input type="tel" id="applicant_phone" required placeholder="040 123 4567">
+          </div>
+          <div class="form-group">
+            <label for="message">Kerro kodistasi ja kokemuksestasi eläinten kanssa</label>
+            <textarea id="message" rows="4" placeholder="Asumismuoto, perheenjäsenet, aiemmat lemmikit..."></textarea>
+          </div>
+          <p id="form-error" class="error-msg hidden"></p>
+          <button type="submit" id="submit-btn" class="btn-primary">Adoptoi minut</button>
+        </form>
+      </div>
+    </section>
 </body>
 </html>
