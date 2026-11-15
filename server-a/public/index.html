@@ -1,25 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vaasan Eläinsuoja ry</title>
-    <link rel="stylesheet" href="tyyli.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vaasan Eläinsuoja ry</title>
+  <link rel="stylesheet" href="tyyli.css">
 </head>
+
 <body>
-    <header>
+  <header>
     <div class="container header-content">
       <h1 onclick="showListView()" style="cursor: pointer;" Vaasan Eläinsuoja ry</h1>
-      <p>Adoptoi uusi ystävä verkossa</p>
+        <p>Adoptoi uusi ystävä verkossa</p>
     </div>
   </header>
   <main class="container">
-    
+<!-- Listanäkymä -->
     <section id="list-view">
       <h2>Kotia etsivät eläimet</h2>
       <div id="animals-grid" class="grid"></div>
     </section>
-    
+<!-- adoptiolomake -->
     <section id="detail-view" class="hidden">
       <button class="btn-secondary" onclick="showListView()">← Takaisin listaan</button>
       <div id="animal-detail-content" class="detail-card"></div>
@@ -48,16 +50,20 @@
         </form>
       </div>
     </section>
+   <!--  Kiitos-sivu -->
     <section id="thank-you-view" class="hidden thank-you-card">
       <h2> Kiitos adoptiohakemuksestasi!</h2>
       <p id="thank-you-text"></p>
-      <p>Hakemuksesi on tallennettu tietokantaamme ja eläin on nyt varattu sinulle. Olemme sinuun yhteydessä mahdollisimman pian!</p>
+      <p>Hakemuksesi on tallennettu tietokantaamme ja eläin on nyt varattu sinulle. Olemme sinuun yhteydessä
+        mahdollisimman pian!</p>
       <button class="btn-primary" onclick="showListView()">Palaa etusivulle</button>
     </section>
   </main>
 
   <script src="app.js"></script>
 </body>
+
 </html>
 </body>
+
 </html>
