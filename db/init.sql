@@ -20,7 +20,7 @@ CREATE TABLE adoptions (
 );
 
 INSERT INTO animals (name, type, age, breed, description, image_url, status) VALUES
-('Jorgos', 'Kissa', 3, 'Maatiaiskissa', 'Rauhallinen ja sylissä viihtyvä kissa, joka etsii loppuelämän kotia. Tulee toimeen muiden kissojen kanssa.', 'https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?w=600', 'available'),
-('Rauno', 'Koira', 2, 'Saksanpaimenkoira', 'Energinen ja leikkisä nuori koira. Vaatii aktiivisen perheen ja paljon ulkoilua.', 'https://images.unsplash.com/photo-1543466835-00a7907e9de1?w=600', 'available'),
-('Mauno', 'Kissa', 5, 'Eurooppalainen', 'Energinen nuori kissa, vaatii paljon aktiviteetteja.', '', 'available'),
-('Bella', 'Koira', 4, 'Kultainennoutaja', 'Erittäin ystävällinen ja lapsirakas koira. Rakastaa uimista ja pallon noutamista.', 'https://images.unsplash.com/photo-1552053831-71594a27632d?w=600', 'available');
+('Jorgos', 'Kissa', 3, 'Maatiaiskissa', 'Rauhallinen ja sylissä viihtyvä kissa, joka etsii loppuelämän kotia. Tulee toimeen muiden kissojen kanssa.', 'https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?w=650', 'available'),
+('Rauno', 'Koira', 2, 'Saksanpaimenkoira', 'Energinen ja leikkisä nuori koira. Vaatii aktiivisen perheen ja paljon ulkoilua.', 'https://images.unsplash.com/photo-1543466835-00a7907e9de1?w=650', 'available'),
+('Mauno', 'Kissa', 5, 'Eurooppalainen', 'Energinen nuori kissa, vaatii paljon aktiviteetteja.', 'https://images.unsplash.com/photo-1503777119540-ce54b422baff?w=650', 'available'),
+('Bella', 'Koira', 4, 'Kultainennoutaja', 'Erittäin ystävällinen ja lapsirakas koira. Rakastaa uimista ja pallon noutamista.', 'https://images.unsplash.com/photo-1552053831-71594a27632d?w=650', 'available');
